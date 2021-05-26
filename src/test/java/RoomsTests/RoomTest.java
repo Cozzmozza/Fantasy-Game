@@ -29,4 +29,9 @@ public class RoomTest {
         assertEquals(testArray, room.getExits());
     }
 
+//    @Test // Is supposed to fail, returns one of EAST/WEST/NORTH/SOUTH
+//    public void canReturnRandomNumber(){
+//        assertEquals(0, room.getRandomExit());
+//    }
+
 }

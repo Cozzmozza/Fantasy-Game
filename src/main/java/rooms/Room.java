@@ -1,7 +1,7 @@
 package rooms;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Random;
 
 public class Room {
 
@@ -22,6 +22,13 @@ public class Room {
 
     public ArrayList getExits(){
         return exits;
+    }
+
+    public Exit getRandomExit(){
+        Random rand = new Random(); //Create instance of random class
+        int upperBound = 4; // max value of 3, so range is 0-3
+        int randomInt = rand.nextInt(upperBound); // this is our random int
+        return exits.get(randomInt);
     }
 
 
