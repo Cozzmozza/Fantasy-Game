@@ -10,11 +10,11 @@ public class Earth implements ISpell {
         this.powerValue = 10;
     }
 
-    public int getPowerValue() {
+//    public int getPowerValue() {
+//        return powerValue;
+//    }
+
+    public int cast() {
         return powerValue;
-    }
-
-    public void cast() {
-
     }
 }

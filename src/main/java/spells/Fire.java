@@ -10,11 +10,11 @@ public class Fire implements ISpell {
         this.powerValue = 15;
     }
 
-    public int getPowerValue() {
+//    public int getPowerValue() {
+//        return powerValue;
+//    }
+
+    public int cast() {
         return powerValue;
-    }
-
-    public void cast() {
-
     }
 }

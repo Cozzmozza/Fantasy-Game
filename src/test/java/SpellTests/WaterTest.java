@@ -15,8 +15,13 @@ public class WaterTest {
         water = new Water();
     }
 
+//    @Test
+//    public void hasPowerValue() {
+//        assertEquals(5, water.getPowerValue());
+//    }
+
     @Test
-    public void hasPowerValue() {
-        assertEquals(5, water.getPowerValue());
+    public void canCast() {
+        assertEquals(5, water.cast());
     }
 }

@@ -15,8 +15,13 @@ public class FireTest {
         fire = new Fire();
     }
 
+//    @Test
+//    public void hasPowerValue() {
+//        assertEquals(15, fire.getPowerValue());
+//    }
+//
     @Test
-    public void hasPowerValue() {
-        assertEquals(15, fire.getPowerValue());
+    public void canCast(){
+        assertEquals(15, fire.cast());
     }
 }

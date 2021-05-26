@@ -15,8 +15,13 @@ public class EarthTest {
         earth = new Earth();
     }
 
+//    @Test
+//    public void hasPowerValue() {
+//        assertEquals(10, earth.getPowerValue());
+//    }
+
     @Test
-    public void hasPowerValue() {
-        assertEquals(10, earth.getPowerValue());
+    public void canCast() {
+        assertEquals(10, earth.cast());
     }
 }
