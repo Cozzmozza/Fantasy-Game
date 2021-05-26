@@ -57,4 +57,10 @@ public class BarbarianTest {
         barbarian.attack(troll);
         assertEquals(20, troll.getHealthPoints());
     }
+
+    @Test
+    public void canRageAttack(){
+        barbarian.rageAttack(troll);
+        assertEquals(10, troll.getHealthPoints());
+    }
 }

@@ -1,13 +1,10 @@
 package PlayerTests;
 
 import enemies.Orc;
-import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 import players.Knight;
-import players.Monk;
 import weapons.Axe;
-import weapons.Club;
 import weapons.Sword;
 
 import static org.junit.Assert.assertEquals;
@@ -58,5 +55,12 @@ public class KnightTest {
     public void canAttackEnemy() {
         knight.attack(orc);
         assertEquals(5, orc.getHealthPoints());
+    }
+
+    @Test
+    public void canHealSelf(){
+        knight.setHealthPoints(-5);
+        knight.healSelf();
+        assertEquals(25, knight.getHealthPoints());
     }
 }

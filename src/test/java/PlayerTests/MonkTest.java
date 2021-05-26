@@ -58,4 +58,10 @@ public class MonkTest {
         monk.attack(troll);
         assertEquals(25, troll.getHealthPoints());
     }
+
+    @Test
+    public void canMultiAttack(){
+        monk.multiAttack(troll);
+        assertEquals(15, troll.getHealthPoints());
+    }
 }
