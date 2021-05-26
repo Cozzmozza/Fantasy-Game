@@ -2,6 +2,6 @@ package behaviours;
 
 public interface IHeal {
 
-    void heal();
+    int heal();
 
 }

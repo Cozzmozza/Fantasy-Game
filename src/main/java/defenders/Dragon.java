@@ -10,12 +10,8 @@ public class Dragon implements IDefend {
         this.defendValue = 15;
     }
 
-    public int getDefendValue() {
+    public int defend(){
         return defendValue;
-    }
-
-    public void defend(){
-
     }
 
 }

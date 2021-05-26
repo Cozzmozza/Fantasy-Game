@@ -10,11 +10,7 @@ public class Potion implements IHeal {
         this.healValue = 10;
     }
 
-    public int getHealValue() {
-        return healValue;
-    }
-
-    public void heal(){
-
+    public int heal(){
+        return this.healValue;
     }
 }

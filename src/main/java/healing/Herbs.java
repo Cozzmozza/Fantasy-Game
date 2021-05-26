@@ -1,6 +1,7 @@
 package healing;
 
 import behaviours.IHeal;
+import players.Player;
 
 public class Herbs implements IHeal {
 
@@ -10,11 +11,7 @@ public class Herbs implements IHeal {
         this.healValue = 5;
     }
 
-    public int getHealValue() {
-        return healValue;
-    }
-
-    public void heal(){
-
+    public int heal(){
+        return this.healValue;
     }
 }

@@ -2,7 +2,7 @@ package players;
 
 import behaviours.IHeal;
 
-public class Cleric extends Player implements IHeal{
+public class Cleric extends Player {
 
     private IHeal healItem;
 
@@ -19,7 +19,8 @@ public class Cleric extends Player implements IHeal{
         healItem = newHealItem;
     }
 
-    public void heal() {
-
+    public void healPlayer(Player player) {
+        player.setHealthPoints(healItem.heal());
     }
+
 }

@@ -17,7 +17,7 @@ public class PotionTest {
 
     @Test
     public void hasHealingValue(){
-        assertEquals(10, potion.getHealValue());
+        assertEquals(10, potion.heal());
     }
 
 }

@@ -10,11 +10,7 @@ public class Ogre implements IDefend {
         this.defendValue = 10;
     }
 
-    public int getDefendValue() {
+    public int defend(){
         return defendValue;
-    }
-
-    public void defend(){
-
     }
 }

@@ -17,7 +17,7 @@ public class DragonTest {
 
     @Test
     public void hasDefendValue(){
-        assertEquals(15,dragon.getDefendValue());
+        assertEquals(15,dragon.defend());
     }
 
 }

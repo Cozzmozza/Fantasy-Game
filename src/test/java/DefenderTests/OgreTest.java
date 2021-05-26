@@ -17,7 +17,7 @@ public class OgreTest {
 
     @Test
     public void hasDefendValue(){
-        assertEquals(10, ogre.getDefendValue());
+        assertEquals(10, ogre.defend());
     }
 
 }

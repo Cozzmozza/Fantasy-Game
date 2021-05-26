@@ -17,7 +17,7 @@ public class HerbsTest {
 
     @Test
     public void hasHealingValue(){
-        assertEquals(5, herbs.getHealValue());
+        assertEquals(5, herbs.heal());
     }
 
 }
