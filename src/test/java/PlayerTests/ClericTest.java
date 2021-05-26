@@ -43,5 +43,9 @@ public class ClericTest {
         assertEquals(healItem2, cleric.getHealItem());
     }
 
-
+    @Test
+    public void canSetHealthPoints() {
+        cleric.setHealthPoints(-5);
+        assertEquals(20, cleric.getHealthPoints());
+    }
 }

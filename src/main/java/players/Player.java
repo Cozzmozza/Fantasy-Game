@@ -18,7 +18,7 @@ public abstract class Player {
         return healthPoints;
     }
 
-    public void setHealthPoints(int healthPoints) {
-        this.healthPoints = healthPoints;
+    public void setHealthPoints(int newHealthPoints) {
+        this.healthPoints += newHealthPoints;
     }
 }

@@ -18,7 +18,7 @@ public class ClubTest {
 
         @Test
         public void hasDamageValue() {
-            assertEquals(5, club.getDamageValue());
+            assertEquals(5, club.attack());
         }
     }
 

@@ -10,11 +10,8 @@ public class Club implements IWeapon {
         this.damageValue = 5;
     }
 
-    public void attack() {
-
-    }
-
-    public int getDamageValue() {
+    public int attack() {
         return this.damageValue;
     }
+
 }

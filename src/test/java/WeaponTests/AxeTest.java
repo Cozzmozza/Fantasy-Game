@@ -17,6 +17,6 @@ public class AxeTest {
 
     @Test
     public void hasDamageValue() {
-        assertEquals(10, axe.getDamageValue());
+        assertEquals(10, axe.attack());
     }
 }

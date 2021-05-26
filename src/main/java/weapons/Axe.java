@@ -11,11 +11,7 @@ public class Axe implements IWeapon {
         this.damageValue = 10;
     }
 
-    public int getDamageValue() {
-        return damageValue;
-    }
-
-    public void attack() {
-
+    public int attack() {
+        return this.damageValue;
     }
 }

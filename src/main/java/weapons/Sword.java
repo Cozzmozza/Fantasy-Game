@@ -10,11 +10,7 @@ public class Sword implements IWeapon {
         this.damageValue = 15;
     }
 
-    public void attack() {
-
-    }
-
-    public int getDamageValue() {
+    public int attack() {
         return this.damageValue;
     }
 }
