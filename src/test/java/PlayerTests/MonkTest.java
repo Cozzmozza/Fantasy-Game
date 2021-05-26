@@ -22,7 +22,7 @@ public class MonkTest {
     public void before(){
         club = new Club();
         sword = new Sword();
-        troll = new Troll();
+        troll = new Troll(club);
         monk = new Monk("Steve", club);
     }
 

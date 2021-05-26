@@ -8,6 +8,7 @@ import org.junit.Test;
 import players.Wizard;
 import spells.Fire;
 import spells.Water;
+import weapons.Axe;
 
 import static org.junit.Assert.assertEquals;
 
@@ -19,12 +20,14 @@ public class WizardTest {
     Water water;
     Ogre ogre;
     Troll troll;
+    Axe axe;
 
     @Before
     public void before(){
         fire = new Fire();
         dragon = new Dragon();
-        troll = new Troll();
+        axe = new Axe();
+        troll = new Troll(axe);
         wizard = new Wizard("Magic Steve", fire, dragon);
     }
 

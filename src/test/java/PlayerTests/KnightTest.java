@@ -20,7 +20,7 @@ public class KnightTest {
     public void before(){
         sword = new Sword();
         axe = new Axe();
-        orc = new Orc();
+        orc = new Orc(axe);
         knight = new Knight("Sir Stevesalot", sword);
     }
 

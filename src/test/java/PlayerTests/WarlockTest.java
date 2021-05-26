@@ -10,6 +10,7 @@ import players.Wizard;
 import spells.Earth;
 import spells.Fire;
 import spells.Water;
+import weapons.Axe;
 
 import static org.junit.Assert.assertEquals;
 
@@ -20,13 +21,15 @@ public class WarlockTest {
     Water water;
     Ogre ogre;
     Troll troll;
+    Axe axe;
 
     @Before
     public void before(){
         earth = new Earth();
         ogre = new Ogre();
         dragon = new Dragon();
-        troll = new Troll();
+        axe = new Axe();
+        troll = new Troll(axe);
         warlock = new Warlock("Creepy Steve", earth, ogre);
     }
 

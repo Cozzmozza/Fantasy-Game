@@ -21,7 +21,7 @@ public class BarbarianTest {
     public void before(){
         axe = new Axe();
         sword = new Sword();
-        troll = new Troll();
+        troll = new Troll(axe);
         barbarian = new Barbarian("Steve", axe);
     }
 
